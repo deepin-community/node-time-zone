@@ -1,0 +1,48 @@
+node-time-zone (1.0.0-5) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs auto install
+  * Drop nodejs dependency
+  * Enable upstream test using tape instead of ava
+
+ -- Yadd <yadd@debian.org>  Tue, 02 Nov 2021 18:15:36 +0100
+
+node-time-zone (1.0.0-4) unstable; urgency=medium
+
+  * Bump debhelper from old 12 to 13.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 15 Sep 2021 16:40:30 +0100
+
+node-time-zone (1.0.0-3) unstable; urgency=medium
+
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-time-zone: Add Multi-Arch: foreign.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sun, 29 Aug 2021 02:34:57 +0100
+
+node-time-zone (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Reupload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 07 Jan 2018 19:57:11 +0530
+
+node-time-zone (1.0.0-1) experimental; urgency=low
+
+  * Initial release (Closes: #854156)
+
+ -- Shirish Togarla <shirishtogarla533@gmail.com>  Sat, 04 Feb 2017 13:33:59 +0000

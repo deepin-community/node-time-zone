@@ -1,0 +1,19 @@
+Description: replace ava by tape
+Author: Yadd <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2021-11-02
+
+--- a/test.js
++++ b/test.js
+@@ -1,7 +1,8 @@
+-import test from 'ava';
+-import m from './';
++const test = require('tape');
++const m = require('./');
+ 
+ test(t => {
+ 	console.log('Time zone:', m());
+-	t.regex(m(), /^[+-][\d:]+$/);
++	t.ok(m().match(/^[+-][\d:]+$/));
++    t.end();
+ });
